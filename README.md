@@ -1,6 +1,7 @@
 # chrome-headless
 
-Inspired by https://github.com/alpeware/chrome-headless-trunk but with ARM64 & AMD64 architecture support.
+Use https://hub.docker.com/r/chromedp/headless-shell as a base image and makes no modifications.
+Only builds that image for amd64 + arm64 so it also works on Apple Silicon macs.
 
 # usage
 
