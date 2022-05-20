@@ -1,6 +1,6 @@
 # chrome-headless
 
-Use https://hub.docker.com/r/chromedp/headless-shell as a base image and makes no modifications.
+Based on https://github.com/NiNiyas/headless-chrome but with some extra flags.
 Only builds that image for amd64 + arm64 so it also works on Apple Silicon macs.
 
 # usage
