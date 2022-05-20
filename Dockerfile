@@ -54,9 +54,9 @@ CMD [ \
   # Disable task throttling of timer tasks from background pages.
   "--disable-background-timer-throttling", \
   # Disable background tracing (aka slow reports & deep reports) to avoid 'Tracing already started'
-  "--force-fieldtrials=*BackgroundTracing/default/" \
+  "--force-fieldtrials=*BackgroundTracing/default/", \
   # Disable the CPU to allow for pixel perfect results
-  "--disable-gpu" \
+  "--disable-gpu", \
   # Reduce text differences
   "--font-render-hinting=none" \
 ]
